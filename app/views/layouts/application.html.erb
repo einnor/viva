@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+  
+  <!--[if lt IE 7 ]> <html class="ie ie6 no-js" lang="en"> <![endif]-->
+  <!--[if IE 7 ]>    <html class="ie ie7 no-js" lang="en"> <![endif]-->
+  <!--[if IE 8 ]>    <html class="ie ie8 no-js" lang="en"> <![endif]-->
+  <!--[if IE 9 ]>    <html class="ie ie9 no-js" lang="en"> <![endif]-->
+  <!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
+
+<head>
+  
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+  <title><%= full_title(yield(:title)) %></title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="description" content="The official website for Viva Africa Consulting LLP" />
+  <meta name="keywords" content="viva, viva africa, llp, consulting, business, sageo, viva africa consulting" />
+  <meta name="author" content="Ronnie Nyaga" />
+  
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <link href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow:700" rel="stylesheet" />
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  
+  <%= favicon_link_tag 'vivalogo.ico' %>
+  
+  <%= javascript_include_tag "modernizr.custom.79639" %>
+  
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <div class="container demo-2">
+    <%= render 'layouts/common/header' %>
+
+    <%= yield %>
+
+  </div>
+  <%= render 'layouts/common/footer' %>
+</body>
+</html>

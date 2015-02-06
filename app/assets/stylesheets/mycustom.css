@@ -1,0 +1,64 @@
+.margins{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+h2.about {
+    display: inline;
+    color: #fff;
+    margin-top: 60px;
+    overflow: hidden;
+    padding: 10px;
+    background-color: #008AB8;
+    text-align: center;
+}
+
+h2.whyus {
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #008AB8;
+    text-align: center;
+    display: inline;
+}
+
+h2.services {
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #008AB8;
+    text-align: center;
+}
+
+h2.partners {
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #008AB8;
+    text-align: center;
+}
+
+.round{
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.rightside {
+    float: right;
+}
+
+
+header h1 {
+    font-size: 34px;
+    line-height: 38px;
+    margin: 0;
+    font-weight: 700;
+    color: #333;
+    float: left;
+}
+
+header h1 span {
+    font-size: 34px;
+    font-weight: 300;
+}

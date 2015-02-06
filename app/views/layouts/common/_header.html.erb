@@ -1,0 +1,30 @@
+<div class="container demo-2">
+  <!-- Codrops top bar -->
+  <div class="codrops-top clearfix">
+    <a href="#">
+      <strong>Viva Africa Consulting LLP </strong>
+    </a>
+    
+    <!--The below section can uncommented when needed-->
+    <!--
+    <span class="right">
+      <a href="#">Lorem Ipsum</a>
+      <a href="#">
+        <strong>Lorem Ipsum</strong>
+      </a>
+    </span>
+    -->
+    <div class="clr"></div>
+  </div><!--/ Codrops top bar -->
+
+  <header class="clearfix">
+
+    <h1> <%= link_to image_tag("vivalogo.png"), root_url %><span>Lorem ipsum dolor</span></h1>    
+    <nav class="codrops-demos">
+      <%= link_to "Home", root_url %>
+      <%= link_to "Serivces", welcome_services_path %>
+      <%= link_to "Partners", welcome_partners_path %>
+      <%= link_to "About Us", welcome_aboutus_path %>
+      <%= link_to "Contact Us", welcome_contactus_path %>
+    </nav>
+  </header>
